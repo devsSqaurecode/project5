@@ -1,0 +1,61 @@
+/*!
+ *  Franc O'cher official website
+ * all right reserved by Francois Durocher (Franc O'cher)
+ */
+
+ .shimmer {
+  color: grey;
+  display:inline-block;
+  -webkit-mask:linear-gradient(-60deg,#000 30%,#0005,#000 70%) right/300% 100%;
+  background-repeat: no-repeat;
+  animation: shimmer 2.5s infinite;
+  font-size: 50px;
+}
+
+@keyframes shimmer {
+  100% {-webkit-mask-position:left}
+}
+a{
+  font-family: 'Oooh Baby', cursive;
+  font-size: 24px;
+}
+.bg-img{
+  height: 100%;
+  background-image: url("img/background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: -300px;
+}
+#container{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+ }
+section {
+  display: block;
+}
+#head {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px 20px 20px 20px;
+  text-transform: uppercase;
+  display: block;
+  background-color: #fff;
+}
+#ArtistName{
+  font-size: 80px;
+  font-family: 'trooper_jazzeriniregular';
+  font-weight: normal;
+  font-style: normal;
+  margin: 0;
+}
+#trademark {
+  text-align: center;
+}

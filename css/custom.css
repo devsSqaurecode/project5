@@ -1,0 +1,188 @@
+/* CSS */
+.button-53 {
+  background-color: #3dd1e7;
+  border: 0 solid #e5e7eb;
+  box-sizing: border-box;
+  color: #000000;
+  display: flex;
+  font-family: ui-sans-serif, system-ui, -apple-system, system-ui, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 1rem;
+  font-weight: 700;
+  justify-content: center;
+  line-height: 1.75rem;
+  padding: 0.75rem 1.65rem;
+  /* position: relative; */
+  text-align: center;
+  text-decoration: none #000000 solid;
+  text-decoration-thickness: auto;
+  width: 100%;
+  max-width: 460px;
+  /* position: relative; */
+  margin: auto;
+  cursor: pointer;
+  transform: rotate(-2deg);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-53:focus {
+  outline: 0;
+}
+
+.button-53:after {
+  content: "";
+  position: absolute;
+  border: 1px solid #000000;
+  bottom: 4px;
+  left: 4px;
+  width: calc(100% - 1px);
+  height: calc(100% - 1px);
+}
+
+.button-53:hover:after {
+  bottom: 2px;
+  left: 2px;
+}
+
+@media (min-width: 768px) {
+  .button-53 {
+    padding: 0.75rem 3rem;
+    font-size: 1.25rem;
+  }
+}
+
+.head-bio {
+  background-color: #a01515;
+  border: 0 solid #e5e7eb;
+  box-sizing: border-box;
+  color: #ffffff;
+  display: flex;
+  font-family: ui-sans-serif, system-ui, -apple-system, system-ui, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 1rem;
+  font-weight: 700;
+  justify-content: center;
+  line-height: 1.75rem;
+  padding: 0.75rem 1.65rem;
+  position: relative;
+  text-align: center;
+  text-decoration: none #000000 solid;
+  text-decoration-thickness: auto;
+  width: 100%;
+  max-width: 460px;
+  position: relative;
+  transform: rotate(-2deg);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.head-bio:focus {
+  outline: 0;
+}
+
+.head-bio:after {
+  content: "";
+  position: absolute;
+  border: 1px solid #000000;
+  bottom: 4px;
+  left: 4px;
+  width: calc(100% - 1px);
+  height: calc(100% - 1px);
+}
+
+@media (min-width: 768px) {
+  .head-bio {
+    padding: 0.75rem 3rem;
+    font-size: 1.25rem;
+  }
+}
+
+.margin30 {
+  padding: 50px 0 0 0;
+}
+
+.bioText {
+  background: rgba(241, 241, 241, 0.5);
+  font-family: "Oooh Baby";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  margin-top: 2%;
+}
+
+@media (min-width: 1600px) {
+  .bioText {
+    background: transparent;
+  }
+}
+
+/* New CSS */
+
+.homeContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  flex-direction: column;
+}
+
+.homeContentImage img {
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.homeContentButton {
+  width: 100%;
+}
+
+.informationSection{
+  width: 75%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 2rem;
+  height: 50vh;
+  /* flex-wrap: wrap; */
+}
+
+footer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: #000000;
+  padding: 2rem;
+  color: white;
+  gap: 2rem;
+}
+
+.social-links a i{
+  padding-left: 20px;
+}
+
+
+
+@media (max-width: 768px) {
+  .informationSection {
+    margin-top: 10%;
+    width: 95%;
+    flex-wrap: wrap-reverse;
+    height: 100%;
+  }
+  iframe{
+    width: 400px;
+    height: 300px;
+  }
+}
+
