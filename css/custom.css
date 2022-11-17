@@ -172,6 +172,14 @@ footer{
 }
 
 
+@media (max-width: 1440px) {
+  .informationSection {
+    margin-top: 10%;
+    width: 95%;
+    flex-wrap: wrap-reverse;
+    height: 100%;
+  }
+}
 
 @media (max-width: 768px) {
   .informationSection {
